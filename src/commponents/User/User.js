@@ -9,7 +9,6 @@ class User extends Component {
                 {item.id} - {item.name} - <Link to={url + '/' + item.id}>
                 info page
             </Link>
-
             </div>
         );
     }
